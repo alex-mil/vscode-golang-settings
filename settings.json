@@ -1,0 +1,30 @@
+{
+    "go.alternateTools": {
+        "customFormatter": "goreturns",
+        "go-langserver": "gopls"
+    },
+    "go.buildOnSave": "workspace",
+    "go.coverOnSave": false,
+    "go.gocodeAutoBuild": false,
+    "go.formatTool": "custom",
+    "go.inferGopath": false,
+    "go.languageServerExperimentalFeatures": {
+        "diagnostics": true
+    },
+    "go.lintOnSave": "package",
+    "go.lintTool": "revive",
+    "go.lintFlags": [
+        "-exclude=vendor/...",
+        "-config=${workspaceFolder}/config.toml"
+    ],
+    "go.toolsManagement.autoUpdate": true,
+    "go.useLanguageServer": true,
+    "go.vetOnSave": "package",
+    "go.useCodeSnippetsOnFunctionSuggest": false,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }
+}
